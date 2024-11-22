@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" href="images/pngaaa.com-6447779.png">
+  <title>TailwindCSS</title>
+</head>
+
+<body>
+  <!-- ==================Navebar Start=============== -->
+
+  <nav class="lg:py-[34px] py-[13px] px-3 lg:px-0">
+    <div class="max-w-container mx-auto">
+      <div class="flex items-center relative">
+        <div class="w-[28%]">
+          <div>
+            <img src="images/logo.png" alt="logo">
+          </div>
+        </div>
+        <div class="w-2/4 hidden md:block">
+          <div class="pr-5">
+            <ul
+              class="flex justify-center md:space-x-6 lg:space-x-12 font-intel text-[#181818] text-lg font-medium capitalize">
+              <li><a href="#" class="hover:text-[#5956E8] duration-300">Home</a></li>
+              <li><a href="#" class="hover:text-[#5956E8] duration-300">About</a></li>
+              <li><a href="#" class="hover:text-[#5956E8] duration-300">Service</a></li>
+              <li><a href="#" class="hover:text-[#5956E8] duration-300">Blog</a></li>
+              <li><a href="#" class="hover:text-[#5956E8] duration-300">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-1/4 hidden md:block">
+          <div class="text-end">
+            <a href="#"
+              class="font-intel text-[#ffffff] text-lg font-medium capitalize bg-[#5956E8] py-[13px] px-6 rounded-[10px]">Contact
+              us</a>
+          </div>
+        </div>
+        <div class="mobile_menu block md:hidden w-[88%] h-full top-[-260px] left-0 absolute duration-300 z-10">
+          <ul
+            class="font-intel text-[#181818] bg-slate-500 text-lg font-medium capitalize text-center space-y-4 py-4 rounded-[10px]">
+            <li><a href="#" class="hover:text-[#5956E8] duration-300">Home</a></li>
+            <li><a href="#" class="hover:text-[#5956E8] duration-300">About</a></li>
+            <li><a href="#" class="hover:text-[#5956E8] duration-300">Service</a></li>
+            <li><a href="#" class="hover:text-[#5956E8] duration-300">Blog</a></li>
+            <li><a href="#" class="hover:text-[#5956E8] duration-300">Contact</a></li>
+          </ul>
+          <div class="icon_x absolute top-2 right-2 md:hidden block ">
+            <div class="text-end">
+              <i
+                class="fa-solid fa-xmark text-[24px] border-solid duration-150 w-[30px] h-[30px] leading-[30px] text-center rounded-full hover:text-red-700"></i>
+            </div>
+          </div>
+        </div>
+        <div class="w-[72%] icon_b md:hidden block">
+          <div class="text-end">
+            <i
+              class="fa-solid fa-bars text-[20px] border-[2px] py-2 px-2 border-solid duration-300 rounded-[10px] hover:text-[#5956E8] hover:border-[#5956E8]"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================Navebar End=============== -->
+
+  <!-- ==================Banner Start=============== -->
+
+  <section class="bg-[#5956E8] px-4 lg:px-0">
+    <div class="max-w-container mx-auto">
+      <div class="md:flex py-[80px] md:py-[180px]">
+        <div class="md:w-2/4 md:pt-[55px]">
+          <h1
+            class="font-intel text-[#ffffff] text-[40px] md:text-[50px] lg:text-[65px] leading-[50px] md:leading-[70px] lg:leading-[80px] font-bold capitalize">
+            We Are Digital Product
+            Design Agency
+          </h1>
+          <p class="font-intel text-[#ffffff] text-[18px] md:text-base font-normal leading-[27px] pt-[25px]">There are
+            many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+            form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <div class="pt-11">
+            <a class="font-intel text-[#5956E8] text-lg font-medium capitalize bg-[#ffffff] py-[13px] px-[22px] rounded-[10px]"
+              href="">Get Start</a>
+          </div>
+        </div>
+        <div class="md:w-2/4 pt-[40px] md:pt-0 hidden md:block">
+          <div class="flex justify-end">
+            <img src="images/banner.png" alt="banner">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================Banner End=============== -->
+
+  <!-- ==================Services Start=============== -->
+
+  <section class="py-20">
+    <div class="max-w-container mx-auto">
+      <div class="w-[80%] md:w-[70%] lg:w-2/4 text-center mx-auto">
+        <h2 class="font-intel font-bold text-[40px] text-[#181818] capitalize pb-5">Our Services</h2>
+        <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] lg:max-w-[542px]">There are
+          many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+        </p>
+      </div>
+      <div class="md:flex md:justify-between pt-[50px] md:flex-wrap px-4 md:space-y-0 space-y-6 gap-y-[30px]">
+        <div
+          class="lg:w-[32%] md:w-[48%] w-full py-[50px] px-[37px] md:py-[63px] md:px-[48px] border-[1px] border-solid border-[#E3E3E3] rounded-[10px] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:border-transparent group duration-300">
+          <i
+            class="fa-solid fa-outdent border-[#5956E8] border-solid border-[1px] py-[17px] px-[17px] text-[18px] text-[#5956E8] rounded-[10px] group-hover:text-[#ffffff] group-hover:bg-[#5956E8] duration-700"></i>
+          <h3 class="font-intel font-bold text-[25px] text-[#181818] pt-[30px] pb-[20px] capitalize">UI/UX Design</h3>
+          <p class="font-intel font-normal text-base text-[rgba(24,24,24,0.7)] pr-[5px]">There are many variations of
+            passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+
+        <div
+          class="lg:w-[32%] md:w-[48%] w-full py-[50px] px-[37px] sm:py-[63px] sm:px-[48px] border-[1px] border-solid border-[#E3E3E3] rounded-[10px] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:border-transparent group duration-300">
+          <i
+            class="fa-solid fa-whiskey-glass border-[#5956E8] border-solid border-[1px] py-[17px] px-[17px] text-[18px] text-[#5956E8] rounded-[10px] group-hover:text-[#ffffff] group-hover:bg-[#5956E8] duration-700"></i>
+          <h3 class="font-intel font-bold text-[25px] text-[#181818] pt-[30px] pb-[20px] capitalize">Web Development
+          </h3>
+          <p class="font-intel font-normal text-base text-[rgba(24,24,24,0.7)] pr-[5px]">There are many variations of
+            passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+
+        <div
+          class="lg:w-[32%] md:w-[48%] w-full py-[50px] px-[37px] sm:py-[63px] sm:px-[48px] border-[1px] border-solid border-[#E3E3E3] rounded-[10px] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:border-transparent group duration-300">
+          <i
+            class="fa-regular fa-clone border-[#5956E8] border-solid border-[1px] py-[17px] px-[17px] text-[18px] text-[#5956E8] rounded-[10px] group-hover:text-[#ffffff] group-hover:bg-[#5956E8] duration-700"></i>
+          <h3 class="font-intel font-bold text-[25px] text-[#181818] pt-[30px] pb-[20px] capitalize">Digital Marketing
+          </h3>
+          <p class="font-intel font-normal text-base text-[rgba(24,24,24,0.7)] pr-[5px]">There are many variations of
+            passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+
+        <div
+          class="lg:w-[32%] md:w-[48%] w-full py-[50px] px-[37px] sm:py-[63px] sm:px-[48px] border-[1px] border-solid border-[#E3E3E3] rounded-[10px] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:border-transparent group duration-300">
+          <i
+            class="fa-solid fa-object-ungroup border-[#5956E8] border-solid border-[1px] py-[17px] px-[17px] text-[18px] text-[#5956E8] rounded-[10px] group-hover:text-[#ffffff] group-hover:bg-[#5956E8] duration-700"></i>
+          <h3 class="font-intel font-bold text-[25px] text-[#181818] pt-[30px] pb-[20px] capitalize">Graphic Design
+          </h3>
+          <p class="font-intel font-normal text-base text-[rgba(24,24,24,0.7)] pr-[5px]">There are many variations of
+            passages of
+            Lorem
+            Ipsum available, but the majority have suffered alteration
+            in some form.</p>
+        </div>
+
+        <div
+          class="lg:w-[32%] md:w-[48%] w-full py-[50px] px-[37px] sm:py-[63px] sm:px-[48px] border-[1px] border-solid border-[#E3E3E3] rounded-[10px] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:border-transparent group duration-300">
+          <i
+            class="fa-solid fa-object-group border-[#5956E8] border-solid border-[1px] py-[17px] px-[17px] text-[18px] text-[#5956E8] rounded-[10px] group-hover:text-[#ffffff] group-hover:bg-[#5956E8] duration-700"></i>
+          <h3 class="font-intel font-bold text-[25px] text-[#181818] pt-[30px] pb-[20px] capitalize">Web Design
+          </h3>
+          <p class="font-intel font-normal text-base text-[rgba(24,24,24,0.7)] pr-[5px]">There are many variations of
+            passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+
+        <div
+          class="lg:w-[32%] md:w-[48%] w-full py-[50px] px-[37px] sm:py-[63px] sm:px-[48px] border-[1px] border-solid border-[#E3E3E3] rounded-[10px] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:border-transparent group duration-300">
+          <i
+            class="fa-solid fa-vector-square border-[#5956E8] border-solid border-[1px] py-[17px] px-[17px] text-[18px] text-[#5956E8] rounded-[10px] group-hover:text-[#ffffff] group-hover:bg-[#5956E8] duration-700"></i>
+          <h3 class="font-intel font-bold text-[25px] text-[#181818] pt-[30px] pb-[20px] capitalize">Motion Design
+          </h3>
+          <p class="font-intel font-normal text-base text-[rgba(24,24,24,0.7)] pr-[5px]">There are many variations of
+            passages of
+            Lorem
+            Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================Services End=============== -->
+
+  <!-- ==================Work Start=============== -->
+
+  <section>
+    <div class="max-w-container mx-auto">
+      <div class="lg:w-2/4 md:w-[70%] w-[80%] text-center mx-auto">
+        <h3 class="font-intel font-bold text-[40px] text-[#181818] capitalize pb-5">Our Work Portfolio</h3>
+        <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] lg:max-w-[542px]">There are
+          many variations
+          of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form.</p>
+      </div>
+      <div class="lg:px-0 px-4">
+        <div
+          class="md:flex w-full md:flex-wrap md:justify-between md:gap-y-[30px] md:space-y-0 space-y-[30px] pt-[50px]">
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle1.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">UI/UX
+                  Design
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle2.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">
+                  Development
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle3.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">
+                  Marketing
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle4.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">Graphic
+                  Design
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle5.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">Web
+                  Design
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle6.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">Graphic
+                  Design
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle7.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">Motion
+                  Design
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[23%] md:w-[48%] w-full relative group">
+            <img class="w-full" src="images/rectangle8.png" alt="#">
+            <div
+              class="absolute bg-[#5956E8] bottom-0 left-[50%] translate-x-[-50%] w-[230px] px-10 py-6 mb-[19px] rounded-[10px] opacity-0 group-hover:opacity-[100%] duration-300">
+              <div class="text-center">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize pb-[10px]">Graphic
+                  Design
+                </h4>
+                <a class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize pr-3" href="#">See
+                  Details</a>
+                <i class="fa-solid fa-arrow-right text-base text-[#ffffff]"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================Work End=============== -->
+
+  <!-- ==================Member Start=============== -->
+
+  <section class="pt-[100px]">
+    <div class="max-w-container mx-auto">
+      <div class="lg:w-2/4 md:w-[70%] w-[80%] text-center mx-auto pb-[50px]">
+        <h3 class="font-intel font-bold text-[40px] text-[#181818] capitalize pb-5">Our Expert Team Member</h3>
+        <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] max-w-[542px]">There are
+          many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form.</p>
+      </div>
+      <div>
+        <div class="lg:flex lg:justify-between lg:space-y-0 md:space-y-12 space-y-5 px-4 lg:px-0 ">
+          <div class="lg:w-[32%] md:w-[70%] w-full relative lg:mx-0 md:mx-auto">
+            <img class="w-full" src="images/member2.png" alt="">
+            <div
+              class="absolute bg-gradient-to-t from-[rgba(89,86,232,0.84)] to-[rgba(255,255,255,0)] bottom-0 left-0 w-full h-[40%] flex justify-center rounded-[10px]">
+              <div class="text-center content-end pb-[34px]">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize">Mahid
+                  Ahmed
+                </h4>
+                <h6 class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize">UX Designer</h6>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[32%] md:w-[70%] w-full relative lg:mx-0 md:mx-auto">
+            <img class="w-full" src="images/member1.png" alt="">
+            <div
+              class="absolute bg-gradient-to-t from-[rgba(89,86,232,0.84)] to-[rgba(255,255,255,0)] bottom-0 left-0 w-full h-[40%] flex justify-center rounded-[10px]">
+              <div class="text-center content-end pb-[34px]">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize">Hasan
+                  Imam
+                </h4>
+                <h6 class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize">UI Designer</h6>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[32%] md:w-[70%] w-full relative lg:mx-0 md:mx-auto">
+            <img class="w-full" src="images/member3.png" alt="">
+            <div
+              class="absolute bg-gradient-to-t from-[rgba(89,86,232,0.84)] to-[rgba(255,255,255,0)] bottom-0 left-0 w-full h-[40%] flex justify-center rounded-[10px]">
+              <div class="text-center content-end pb-[34px]">
+                <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#ffffff] capitalize">Kazi
+                  Afia
+                </h4>
+                <h6 class="font-intel font-normal text-base text-[#ffffff] leading-[27px] capitalize">Digital Marketor
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================Member End=============== -->
+
+  <!-- ==================Customer Experience Start=============== -->
+
+  <section class="lg:py-[142px] md:py-[100px] py-[70px]">
+    <div class="max-w-container mx-auto px-4">
+      <div class="lg:w-2/4 md:w-[75%] w-full">
+        <h3 class="font-intel font-bold text-[40px] text-[#181818] capitalize pb-5">We Care About Our Customer
+          Experience Too
+        </h3>
+        <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] pr-11">There are
+          many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form.</p>
+      </div>
+      <div class="pt-[50px] md:flex md:flex-wrap md:justify-between sm:space-y-0 space-y-5">
+        <div
+          class="md:w-[31%] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] rounded-[10px] py-7 px-7 lg:py-12 lg:px-12 relative">
+          <img src="images/customer.png" alt="">
+          <div class="pt-[15px] lg:pt-[30px] text-[20px] text-[#FBBF25]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] pt-[10px] lg:pt-5">There
+            are many
+            variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+          </p>
+          <div class="pt-[15px]">
+            <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#181818] capitalize">Mahid Ahmed
+            </h4>
+            <h6 class="font-intel font-normal text-base text-[#5D5D5D] leading-[27px] capitalize">UX designer
+            </h6>
+          </div>
+          <div class="absolute right-[30px] bottom-4 text-[rgba(89,86,232,0.1)]">
+            <i class="fa-solid fa-quote-right text-[48px]"></i>
+          </div>
+        </div>
+        <div
+          class="md:w-[31%] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] rounded-[10px] py-7 px-7 lg:py-12 lg:px-12 relative">
+          <img src="images/customer.png" alt="">
+          <div class="pt-[15px] lg:pt-[30px] text-[20px] text-[#FBBF25]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] pt-[10px] lg:pt-5">There
+            are many
+            variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+          </p>
+          <div class="pt-[15px]">
+            <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#181818] capitalize">Mahid Ahmed
+            </h4>
+            <h6 class="font-intel font-normal text-base text-[#5D5D5D] leading-[27px] capitalize">UX designer
+            </h6>
+          </div>
+          <div class="absolute right-[30px] bottom-4 text-[rgba(89,86,232,0.1)]">
+            <i class="fa-solid fa-quote-right text-[48px]"></i>
+          </div>
+        </div>
+        <div
+          class="md:w-[31%] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] rounded-[10px] py-7 px-7 lg:py-12 lg:px-12 relative">
+          <img src="images/customer.png" alt="">
+          <div class="pt-[15px] lg:pt-[30px] text-[20px] text-[#FBBF25]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] pt-[10px] lg:pt-5">There
+            are many
+            variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+          </p>
+          <div class="pt-[15px]">
+            <h4 class="font-intel font-semibold text-xl leading-[27px] text-[#181818] capitalize">Mahid Ahmed
+            </h4>
+            <h6 class="font-intel font-normal text-base text-[#5D5D5D] leading-[27px] capitalize">UX designer
+            </h6>
+          </div>
+          <div class="absolute right-[30px] bottom-4 text-[rgba(89,86,232,0.1)]">
+            <i class="fa-solid fa-quote-right text-[48px]"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================Customer Experience End=============== -->
+
+  <!-- ==================News Start=============== -->
+
+  <section class="pb-[100px]">
+    <div class="max-w-container mx-auto">
+      <div class="lg:w-2/4 w-[80%] text-center mx-auto pb-[50px]">
+        <h3 class="font-intel font-bold text-[40px] text-[#181818] capitalize pb-5">Our Letest News</h3>
+        <p class="font-intel font-normal text-base leading-[27px] text-[rgba(24,24,24,0.7)] max-w-[542px]">There are
+          many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+        </p>
+      </div>
+      <div class="md:flex md:justify-between px-4 lg:px-0 md:space-y-0 space-y-6">
+        <div class="md:w-[32%] w-full border-[1px] border-[#E3E3E3] bg-[#ffffff] rounded-[10px]">
+          <div class="py-[19px] px-[19px]">
+            <img class="w-full" src="images/news1.png" alt="">
+          </div>
+          <div class="lg:px-[35px] px-[20px] lg:pb-[46px] pb-[30px]">
+            <div class="flex">
+              <div class="pr-[10px] text-[#5D5D5D] text-[18px]"><i class="fa-regular fa-user"></i></div>
+              <h5 class="pr-[30px] font-intel font-normal leading-[27px] text-base text-[#5D5D5D]">Admin</h5>
+              <div class="pr-[10px] text-[#5D5D5D] text-[18px]"><i class="fa-regular fa-calendar-days"></i></div>
+              <h5 class="font-intel font-normal leading-[27px] text-base text-[#5D5D5D]">07/11/2021</h5>
+            </div>
+            <div>
+              <h3 class="font-intel font-semibold text-[20px] text-[#181818] capitalize pt-[10px] max-w-[267px]">
+                Business
+                Plans That
+                Fit Your
+                Best Blog</h3>
+              <p class="font-intel font-normal text-base leading-[27px] text-[#5D5D5D] pt-[15px] max-w-[300px]">There
+                are many
+                variations of
+                passages of Lorem Ipsum , but the majority have suffered
+                alteration in
+                some
+                form.</p>
+              <div class="pt-[10px] text-[#5956E8] font-intel font-semibold text-base">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-[32%] w-full border-[1px] border-[#E3E3E3] bg-[#ffffff] rounded-[10px]">
+          <div class="py-[19px] px-[19px]">
+            <img class="w-full" src="images/news2.png" alt="">
+          </div>
+          <div class="lg:px-[35px] px-[20px] lg:pb-[46px] pb-[30px]">
+            <div class="flex">
+              <div class="pr-[10px] text-[#5D5D5D] text-[18px]"><i class="fa-regular fa-user"></i></div>
+              <h5 class="pr-[30px] font-intel font-normal leading-[27px] text-base text-[#5D5D5D]">Admin</h5>
+              <div class="pr-[10px] text-[#5D5D5D] text-[18px]"><i class="fa-regular fa-calendar-days"></i></div>
+              <h5 class="font-intel font-normal leading-[27px] text-base text-[#5D5D5D]">07/11/2021</h5>
+            </div>
+            <div>
+              <h3 class="font-intel font-semibold text-[20px] text-[#181818] capitalize pt-[10px] max-w-[267px]">
+                Business
+                Plans That
+                Fit Your
+                Best Blog</h3>
+              <p class="font-intel font-normal text-base leading-[27px] text-[#5D5D5D] pt-[15px] max-w-[300px]">There
+                are many
+                variations of
+                passages of Lorem Ipsum , but the majority have suffered
+                alteration in
+                some
+                form.</p>
+              <div class="pt-[10px] text-[#5956E8] font-intel font-semibold text-base">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-[32%] w-full border-[1px] border-[#E3E3E3] bg-[#ffffff] rounded-[10px]">
+          <div class="py-[19px] px-[19px]">
+            <img class="w-full" src="images/news3.png" alt="">
+          </div>
+          <div class="lg:px-[35px] px-[20px] lg:pb-[46px] pb-[30px]">
+            <div class="flex">
+              <div class="pr-[10px] text-[#5D5D5D] text-[18px]"><i class="fa-regular fa-user"></i></div>
+              <h5 class="pr-[30px] font-intel font-normal leading-[27px] text-base text-[#5D5D5D]">Admin</h5>
+              <div class="pr-[10px] text-[#5D5D5D] text-[18px]"><i class="fa-regular fa-calendar-days"></i></div>
+              <h5 class="font-intel font-normal leading-[27px] text-base text-[#5D5D5D]">07/11/2021</h5>
+            </div>
+            <div>
+              <h3 class="font-intel font-semibold text-[20px] text-[#181818] capitalize pt-[10px] max-w-[267px]">
+                Business
+                Plans That
+                Fit Your
+                Best Blog</h3>
+              <p class="font-intel font-normal text-base leading-[27px] text-[#5D5D5D] pt-[15px] max-w-[300px]">There
+                are many
+                variations of
+                passages of Lorem Ipsum , but the majority have suffered
+                alteration in
+                some
+                form.</p>
+              <div class="pt-[10px] text-[#5956E8] font-intel font-semibold text-base">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================News End=============== -->
+
+  <!-- ==================Footer Start=============== -->
+
+  <footer class="bg-[rgba(89,86,232,0.1)] lg:py-[100px] md:py-[80px] py-[50px]">
+    <div class="max-w-container mx-auto">
+      <div class="flex justify-between flex-wrap px-4 lg:px-0 space-y-12 md:space-y-0">
+        <div class="md:w-[25%] w-[80%]">
+          <div class="pb-[15px]">
+            <img src="images/logo2.png" alt="logo">
+          </div>
+          <p class="font-intel font-normal text-base leading-[27px] text-[#5D5D5D]">There are many
+            variations of passages
+            of Lorem Ipsum , but the majority have suffered alteration in some
+            form.</p>
+          <div class="pt-[20px]">
+            <a class="mr-[15px]" href="#">
+              <i
+                class="fa-brands fa-facebook-f w-[42px] h-[42px] text-center bg-[#FFFFFF] rounded-full text-[#337FFF] leading-[42px]"></i></a>
+            <a href="#">
+              <i
+                class="fa-brands fa-twitter w-[42px] h-[42px] text-center bg-[#FFFFFF] rounded-full text-[#33CCFF] leading-[42px]"></i>
+            </a>
+          </div>
+        </div>
+        <div class="lg:w-[8%] md:w-[14%] w-[50%]">
+          <div class="pb-[15px]">
+            <h4 class="font-intel font-semibold text-[20px] text-[#181818] capitalize">Company</h4>
+          </div>
+          <ul class="font-intel font-normal text-base text-[#5D5D5D] leading-[35px]">
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">About Us</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Work</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Latest News</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">careers</a></li>
+          </ul>
+        </div>
+        <div class="lg:w-[10%] md:w-[20%] w-[50%]">
+          <div class="pb-[15px]">
+            <h4 class="font-intel font-semibold text-[20px] text-[#181818] capitalize">Product</h4>
+          </div>
+          <ul class="font-intel font-normal text-base text-[#5D5D5D] leading-[35px] capitalize">
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Prototype</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Plans & Pricing</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Customers</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Integrations</a></li>
+          </ul>
+        </div>
+        <div class="lg:w-[12%] md:w-[18%] w-[50%]">
+          <div class="pb-[15px]">
+            <h4 class="font-intel font-semibold text-[20px] text-[#181818] capitalize">Support</h4>
+          </div>
+          <ul class="font-intel font-normal text-base text-[#5D5D5D] leading-[35px] capitalize">
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Help Desk</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Sales</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Become a Partner</a></li>
+            <li><a class="hover:text-[#5956E8] duration-200" href="#">Developers</a></li>
+          </ul>
+        </div>
+        <div class="lg:w-[14%] md:w-[22%] w-[50%]">
+          <div class="pb-[15px]">
+            <h4 class="font-intel font-semibold text-[20px] text-[#181818] capitalize">Contact</h4>
+          </div>
+          <div class="font-intel font-normal text-base text-[#5D5D5D] leading-[27px] capitalize">
+            <h5>524 Broadway , NYC</h5>
+            <a class="hover:text-[#5956E8] duration-200" href="#">+1 777 - 978 - 5570</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================Footer End=============== -->
+
+  <!-- ================ Mobile Navbar js ================= -->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $('.fa-bars').click(function () {
+      $('.mobile_menu').addClass('!top-0');
+    });
+    $('.fa-xmark').click(function () {
+      $('.mobile_menu').removeClass('!top-0');
+    });
+  </script>
+
+</body>
+
+</html>
